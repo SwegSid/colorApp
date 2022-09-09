@@ -3,5 +3,5 @@
     <dimen name="buttonWidth">300dp</dimen>
     <dimen name="buttonHeight">100dp</dimen>
     <dimen name="textWidth">350dp</dimen>
-    <dimen name="textHeight">100</dimen>
+    <dimen name="textHeight">100dp</dimen>
 </resources>
