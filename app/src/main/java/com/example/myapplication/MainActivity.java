@@ -20,9 +20,9 @@ public class MainActivity extends AppCompatActivity {
     public void click(View view){
         count++;
         TextView end = findViewById(R.id.textView3);
-        EditText name = findViewById(R.id.editTextTextPersonName);
+        EditText userName = findViewById(R.id.editTextTextPersonName);
 
-        end.setText(""+name + " clicked " + count +" times");
+
+        end.setText("" +userName.getText().toString() +" clicked " + count +" times");
     }
-//sid is cute:)
 }

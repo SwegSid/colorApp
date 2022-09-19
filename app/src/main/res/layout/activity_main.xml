@@ -13,14 +13,15 @@
         android:layout_height="wrap_content"
         android:width="@dimen/textWidth"
         android:height="@dimen/textHeight"
-        android:text="       Click!"
+        android:text="Welcome!"
+        android:textAlignment="center"
         android:textSize="60sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.174" />
+        app:layout_constraintVertical_bias="0.031" />
 
     <Button
         android:id="@+id/button"
@@ -28,15 +29,15 @@
         android:layout_height="@dimen/buttonHeight"
         android:width="@dimen/buttonWidth"
         android:height="@dimen/buttonHeight"
-        android:background="#FFFBFB"
+        android:background="@drawable/circle"
         android:onClick="click"
-        android:text="Button"
+        android:text="Click Me!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.396"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.624" />
+        app:layout_constraintVertical_bias="0.498" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
@@ -53,7 +54,7 @@
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.415" />
+        app:layout_constraintVertical_bias="0.245" />
 
     <TextView
         android:id="@+id/textView3"
@@ -61,13 +62,15 @@
         android:layout_height="wrap_content"
         android:width="@dimen/textWidth"
         android:height="@dimen/textHeight"
-        android:text=" "
+        android:autoText="false"
+        android:text=""
+        android:textAlignment="center"
         android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.854" />
+        app:layout_constraintVertical_bias="0.884" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

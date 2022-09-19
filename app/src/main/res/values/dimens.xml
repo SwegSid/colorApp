@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="buttonWidth">300dp</dimen>
-    <dimen name="buttonHeight">100dp</dimen>
+    <dimen name="buttonWidth">200dp</dimen>
+    <dimen name="buttonHeight">200dp</dimen>
     <dimen name="textWidth">350dp</dimen>
     <dimen name="textHeight">100dp</dimen>
 </resources>
