@@ -3,5 +3,7 @@
     <dimen name="buttonWidth">200dp</dimen>
     <dimen name="buttonHeight">200dp</dimen>
     <dimen name="textWidth">350dp</dimen>
+    <dimen name="padding">50dp</dimen>
     <dimen name="textHeight">100dp</dimen>
+    <dimen name="margin">10dp</dimen>
 </resources>

@@ -7,13 +7,25 @@
     android:foregroundTint="#00FFFFFF"
     tools:context=".MainActivity">
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/margin"
+        android:paddingRight="@dimen/margin"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        ></LinearLayout>
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:width="@dimen/textWidth"
         android:height="@dimen/textHeight"
-        android:text="Welcome!"
+        android:gravity="center"
+        android:layout_margin="@dimen/margin"
+        android:paddingLeft="@dimen/padding"
+        android:paddingRight="@dimen/padding"
+        android:text="Welcome"
         android:textAlignment="center"
         android:textSize="60sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -30,7 +42,10 @@
         android:width="@dimen/buttonWidth"
         android:height="@dimen/buttonHeight"
         android:background="@drawable/circle"
+        android:layout_margin="@dimen/margin"
+        android:gravity="center"
         android:onClick="click"
+        android:padding="@dimen/padding"
         android:text="Click Me!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -46,9 +61,13 @@
         android:width="@dimen/textWidth"
         android:height="@dimen/textHeight"
         android:ems="10"
+        android:layout_margin="@dimen/margin"
+        android:gravity="center"
         android:hint="User Name"
         android:inputType="textPersonName"
         android:minHeight="48dp"
+        android:paddingLeft="@dimen/padding"
+        android:paddingRight="@dimen/padding"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
@@ -60,9 +79,12 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
         android:width="@dimen/textWidth"
         android:height="@dimen/textHeight"
-        android:autoText="false"
+        android:gravity="center"
+        android:paddingLeft="@dimen/padding"
+        android:paddingRight="@dimen/padding"
         android:text=""
         android:textAlignment="center"
         android:textSize="40sp"
@@ -72,5 +94,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.884" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
